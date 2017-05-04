@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Introduction:}{3}{section.1}
+\contentsline {section}{\numberline {2}Question 1:}{3}{section.2}
+\contentsline {section}{\numberline {3}Question 2:}{4}{section.3}
+\contentsline {section}{\numberline {4}Question 3:}{4}{section.4}
+\contentsline {section}{\numberline {5}Question 4:}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}First Order Approximation:}{6}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Forward difference}{6}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Backward difference}{6}{subsubsection.5.1.2}
+\contentsline {subsection}{\numberline {5.2}Second Order Approximation - Central difference}{6}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Fourth order approximation}{7}{subsection.5.3}
+\contentsline {section}{\numberline {6}Question 5:}{8}{section.6}
+\contentsline {section}{\numberline {7}Conclusion}{9}{section.7}

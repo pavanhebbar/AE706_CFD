@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}Introduction:}{4}{section.1}
+\contentsline {section}{\numberline {2}Question 1:}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}FTBS}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}CFL = 0.8}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}CFL = 1.0}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}CFL = 1.2}{6}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}FTFS}{8}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}CFL = 0.8}{8}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}CFL = 1.0}{9}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}CFL = 1.2}{10}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}FTCS}{11}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}CFL = 0.8}{11}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}CFL = 1.0}{12}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}CFL = 1.2}{14}{subsubsection.2.3.3}
+\contentsline {section}{\numberline {3}Question 2:}{15}{section.3}
+\contentsline {subsection}{\numberline {3.1}Single frequency}{15}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}FTBS}{15}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}CFL = 1.0}{17}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}CFL = 1.2}{18}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}FTFS}{19}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}CFL = 0.8}{19}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}CFL = 1.0}{20}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}CFL = 1.2}{21}{subsubsection.3.2.3}
+\contentsline {subsection}{\numberline {3.3}FTCS}{22}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}CFL = 0.8}{22}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}CFL = 1.0}{24}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}CFL = 1.2}{25}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Multiple frequencies}{26}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}FTBS}{26}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}CFL = 1.0}{28}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}CFL = 1.2}{29}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}FTFS}{30}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}CFL = 0.8}{30}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}CFL = 1.0}{31}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}CFL = 1.2}{32}{subsubsection.3.5.3}
+\contentsline {subsection}{\numberline {3.6}FTCS}{33}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}CFL = 0.8}{33}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}CFL = 1.0}{35}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}CFL = 1.2}{36}{subsubsection.3.6.3}
+\contentsline {section}{\numberline {4}Question 3}{37}{section.4}
+\contentsline {subsection}{\numberline {4.1}Test case 1}{38}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Test case 2}{38}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Test Case 3:}{38}{subsection.4.3}
+\contentsline {section}{\numberline {5}Conclusion}{38}{section.5}

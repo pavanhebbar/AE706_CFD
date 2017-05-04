@@ -1,0 +1,104 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[affil-it]{authblk}
+\usepackage{etoolbox}
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{relsize}
+
+\makeatletter
+\patchcmd{\@maketitle}{\LARGE \@title}{\fontsize{20}{19.2}\selectfont\@title}{}{}
+\makeatother
+
+\renewcommand\Authfont{\fontsize{16}{14.4}\selectfont}
+\renewcommand\Affilfont{\fontsize{12}{10.8}\itshape}
+
+\title{\textbf{AE 706: Assignment 1}}
+\author{Pavan R Hebbar - 130010046}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+\begin{document}
+$1 \oplus s_{0} \oplus s_{1} \cdot s_{2}s_{1}$ \
+ $1 \oplus s_{1} \oplus s_{2} \cdot s_{3}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{2} \oplus s_{3} \cdot s_{4}s_{3}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{3} \oplus s_{4} \cdot s_{5}s_{5} \oplus s_{4}$ \
+ $1 \oplus s_{4} \oplus s_{5} \cdot s_{6}s_{6} \oplus $ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{5} \oplus s_{6} \cdot s_{7}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{6} \oplus s_{7} \cdot s_{8}s_{7}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{7} \oplus s_{8} \cdot s_{9}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{8} \oplus s_{9} \cdot s_{10}s_{10} \oplus s_{9}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{9} \oplus s_{10} \cdot s_{11}s_{10}$ \
+ $s_{10} \oplus s_{11} \cdot s_{12}s_{12} \oplus s_{11}$ \
+ $s_{11} \oplus s_{12} \cdot s_{13}s_{13} \oplus s_{12}$ \
+ $1 \oplus s_{12} \oplus s_{13} \cdot s_{14}s_{14} \oplus $ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{13} \oplus s_{14} \cdot s_{15}s_{15} \oplus $ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{14} \oplus s_{15} \cdot s_{16}s_{15}$ \
+ $s_{15} \oplus s_{16} \cdot s_{17}s_{17} \oplus $ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{16} \oplus s_{17} \cdot s_{18}s_{17}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{17} \oplus s_{18} \cdot s_{19}$ \
+ $1 \oplus s_{18} \oplus s_{19} \cdot s_{20}s_{20} \oplus $ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{19} \oplus s_{20} \cdot s_{21}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{20} \oplus s_{21} \cdot s_{22}s_{22} \oplus s_{21}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{21} \oplus s_{22} \cdot s_{23}s_{22}$ \
+ $1 \oplus s_{22} \oplus s_{23} \cdot s_{24}s_{24} \oplus $ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{23} \oplus s_{24} \cdot s_{25}s_{24}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{24} \oplus s_{25} \cdot s_{26}s_{26} \oplus $ \
+ $1 \oplus s_{25} \oplus s_{26} \cdot s_{27}s_{26}$ \
+ $s_{26} \oplus s_{27} \cdot s_{28}s_{28} \oplus s_{27}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{27} \oplus s_{28} \cdot s_{29}s_{28}$ \
+ $s_{28} \oplus s_{29} \cdot s_{30}s_{30} \oplus $ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{29} \oplus s_{30} \cdot s_{31}s_{31} \oplus s_{30}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{30} \oplus s_{31} \cdot s_{32}s_{31}$ \
+ $s_{31} \oplus s_{32} \cdot s_{33}s_{33} \oplus s_{32}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{32} \oplus s_{33} \cdot s_{34}s_{33}$ \
+ $s_{33} \oplus s_{34} \cdot s_{35}$ \
+ $s_{34} \oplus s_{35} \cdot s_{36}s_{36} \oplus $ \
+ $s_{35} \oplus s_{36} \cdot s_{37}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{36} \oplus s_{37} \cdot s_{38}s_{37}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{37} \oplus s_{38} \cdot s_{39}s_{38}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{38} \oplus s_{39} \cdot s_{40}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{39} \oplus s_{40} \cdot s_{41}s_{40}$ \
+ $1 \oplus c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{40} \oplus s_{41} \cdot s_{42}$ \
+ $s_{41} \oplus s_{42} \cdot s_{43}s_{42}$ \
+ $1 \oplus s_{42} \oplus s_{43} \cdot s_{44}s_{44} \oplus s_{43}$ \
+ $1 \oplus s_{43} \oplus s_{44} \cdot s_{45}s_{44}$ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{44} \oplus s_{45} \cdot s_{46}s_{46} \oplus $ \
+ $s_{45} \oplus s_{46} \cdot s_{47}$ \
+ $1 \oplus s_{46} \oplus s_{47} \cdot s_{48}s_{48} \oplus $ \
+ $c_{b} \cdot (s_{99} \oplus inbit \oplus )s_{47} \oplus s_{48} \cdot s_{49}$ \
+ $s_{48} \oplus s_{49} \cdot s_{50}$ \
+ 
+\end{document}
+
